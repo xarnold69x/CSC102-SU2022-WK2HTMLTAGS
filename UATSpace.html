@@ -1,0 +1,65 @@
+<!--html file for  CSC102
+Assignment: Launching your UAT Space Program HTML Document Tags
+written by Bryan Arnold
+email: bryan.arnold1925@gmail.com-->
+<!DOCTYPE html>
+<!--html tag for assignment-->
+<html>
+<!--head tag for assignment-->
+
+<head>
+    <!--the title goes at the title bar-->
+    <title>
+        Bryan Arnold's UAT Space Page
+    </title>
+    <script>
+        //alert function as required by assignment.
+        var alertText = "Test of the alert function"
+            //alert(alertText);
+    </script>
+    <script src="code.js"></script>
+    <style>
+        body {
+            background-color: rebeccapurple;
+            color: white;
+
+        }
+    </style>
+</head>
+<!--body tag for as required by assignment-->
+
+<body>
+    <!--logo for UATSpace-->
+    <img src="UATspaceLogo-1.jpeg">
+    <!--logo for Blastoff-->
+    <img src="BLASTOFF.jpeg">
+    <!--fulfils header requirement-->
+    <h1>H1 Sample Text</h1>
+    <!--paragraph tag for the assignment-->
+    <p>
+        
+        <span style="font-family: Lucida Handwriting, Brush Script MT, cursive;">This is a test of the paragraph tag.</span>  <br>
+        It is usually meant for more than one line of text.
+        That is why they call it a paragragh tag.
+    </p>
+    <script>
+        //one line comment
+        //created a textValue comment
+        var textvalue = "Test of the document.write() function";
+        //use that textValue comment
+        document.write(textvalue);
+        /*multiline
+        comment*/
+    </script>
+    <br>
+    <br>
+    <br>
+    Time left before launch:<br>
+    <div id="countdownDisplay">Launch not initiated</div>
+    <br>
+    <!--button requirements from assignment-->
+    <button onclick="blastoffTimerV1();">Start</button>
+        <button>Stop</button>
+    </body>
+
+</html>
